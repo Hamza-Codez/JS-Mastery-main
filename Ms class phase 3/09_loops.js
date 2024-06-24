@@ -9,26 +9,24 @@ const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
 console.log(myTotal);
 
-
-const shoppingCart = [
+const shopd = [
     {
-        itemName: "js course",
-        price: 2999
+        itemName: "HTP watch",
+        Price: 399
     },
     {
-        itemName: "py course",
-        price: 999
+        itemName: "t9x headphones",
+        Price: 899
     },
     {
-        itemName: "mobile dev course",
-        price: 5999
+        itemName: "Julion Series neckrest",
+        Price: 166
     },
     {
-        itemName: "data science course",
-        price: 12999
-    },
+        itemName: " Umbrella pair shoes",
+        Price: 546
+    }
 ]
 
-const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
-
+const priceToPay = shopd.reduce((acc, item) => acc + item.Price, 0)
 console.log(priceToPay);
