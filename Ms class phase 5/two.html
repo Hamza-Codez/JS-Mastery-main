@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Chai or Code (Some JS concepts)</h1>
+  <button id="stop">Stop</button>
+</body>
+<script>
+  const intervalcall = function(){
+    console.log('Call me Hamza');
+  };
+  const changeText = function(){document.querySelector('h1').innerHTML = "Mastering JS like a"};
+
+  const chngeme = setTimeout(changeText, 2000);
+  setTimeout(intervalcall, 1000);  
+  addEventListener('click', function(){
+    clearTimeout(chngeme)
+    console.log('Stopped');
+  })
+</script> 
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Some Js out of ketlle (Submitting my assignment)</h1>
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+</body>
+<script>
+ const stInt = function(str){
+    console.log(str, Date.now());
+  }
+  let interVal;
+  document.querySelector('#start').addEventListener('click',function(){
+    interValid = setInterval(stInt, 1000, 'Hello World');
+  })
+  document.querySelector('#stop').addEventListener('click', function(){
+    clearInterval(interValid);
+    console.log('clicked');
+  })
+
+</script> 
+</html>
