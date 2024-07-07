@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
-  background-color: #121221;
+  /* background-color: #121221; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
 }
 div.container{
-  color: rgb(253, 254, 255);
-  background-color: aliceblue;
-  width: 16rem;
-  height: 69vh;
+  color: #fdfeff;
+  background-color: #d9d1da;
+  width: 20rem;
+  height: auto;
   border-radius: 2%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 14px 12px 15px rgba(0, 0, 0, 0.1);
   padding: 0; 
   margin: 0;
   overflow: hidden; 
@@ -41,10 +41,10 @@ div.container{
 }
 .container .Pros {
   padding: 10px;
-  background-color: #f8f8fa;
-  font-size: x-small;
+  font-size: 0.8rem;
   height: 44vh;
   color: #121221;
+  padding-right: 20px;
 }
 .container .Pros ul{
   font-family: "Roboto", sans-serif;
@@ -52,4 +52,27 @@ div.container{
   font-style: normal;
   font-stretch: semi-expanded;
   line-height: 2.8vh;
+}
+.container .button{
+  display: flex;
+  margin-top: -30px;
+}
+.container .button a button {
+  background-color: #008CBA;
+  color: white;
+  padding: 6px 21px;
+  text-align: center;
+  font-size: 12px;
+  margin: 20px 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+#Followers {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  font-style: normal;
+  margin: 12px 0;
+  color: #121221;
 }
