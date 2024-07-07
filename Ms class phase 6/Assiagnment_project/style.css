@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background-color: #121221;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+div.container{
+  color: rgb(253, 254, 255);
+  background-color: aliceblue;
+  width: 16rem;
+  height: 69vh;
+  border-radius: 2%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0; 
+  margin: 0;
+  overflow: hidden; 
+}
+.container .head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  background-color: rgb(71, 68, 235);
+
+}
+.container .head #name{
+  margin-right: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.container .head #img img {
+  margin: 0 20px; 
+  width: 5rem; 
+  border-radius: 50%;
+  
+}
+.container .Pros {
+  padding: 10px;
+  background-color: #f8f8fa;
+  font-size: x-small;
+  height: 44vh;
+  color: #121221;
+}
+.container .Pros ul{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: semi-expanded;
+  line-height: 2.8vh;
+}
