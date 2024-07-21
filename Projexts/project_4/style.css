@@ -10,7 +10,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   overflow-x: hidden;
   padding: 20px;
 }
@@ -33,7 +33,7 @@ h1 {
   padding: 12px;
   font-size: 1.5rem;
   border-radius: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 65px;
 }
 
 p {
