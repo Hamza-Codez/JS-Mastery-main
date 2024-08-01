@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -33,8 +34,10 @@ h1 {
   background-color: #161616;
   color: #fff;
   padding: 12px;
-  font-family: "Rubik Microbe", system-ui;
-  font-size: 1.5rem;
+  font-family: "Emilys Candy", serif;
+  letter-spacing: 3px;
+  font-size: 1.6rem;
+  font-style: bold;
   border-radius: 8px;
   margin-bottom: 65px;
 }
