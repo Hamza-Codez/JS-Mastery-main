@@ -1,12 +1,12 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
-// console.log(val);
-// } )
+coding.forEach( function (val){
+console.log(val);
+} )
 
-// coding.forEach((Sdmp)=>{
-// console.log(Sdmp);
-// })
+coding.forEach((Sdmp)=>{
+console.log(Sdmp);
+})
 
 // function myfn(item) {
 //     console.log(item);
