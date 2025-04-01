@@ -1,6 +1,6 @@
 //we can use an array of strings or Object as given
-// ["","",""]
-// [{},{},{}]
+["","",""]
+[{},{},{}]
 // we will observe it in usage of ForOf loops
 
 let arr = [1, 2, 3, 4, 5, 7, 8]
